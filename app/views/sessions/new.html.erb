@@ -1,0 +1,10 @@
+<%= form_for @user, login_path do |f| %>
+
+<%= f.label :name  %>
+<%= f.text_field :name %><br>
+
+<%= f.label :password %>
+<%= f.text_field :password %><br>
+
+<%= f.submit "Log in" %>
+<% end %>
